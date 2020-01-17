@@ -179,6 +179,16 @@ a {
     border-radius: 100px;
 }
 
+@keyframes animation {
+    from {background-color: white;}
+    to {background-color: green;}
+}
+
+.button:hover {
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
 .invite {
     margin: 40px 3%;
     width: 90%
